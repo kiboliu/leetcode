@@ -22,7 +22,7 @@ void sortColors(int A[], int n) {
     }
 }
 
-//Method 2: put the 0 to the start and the 2 to the end.
+//Method 2: two-pointers, put the 0 to the start and the 2 to the end.
 void sortColors(int A[], int n) {
     int j = 0, k = n - 1;
     for (int i = 0; i <= k; ++i){
